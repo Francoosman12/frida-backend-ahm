@@ -5,9 +5,9 @@ const cors = require('cors');
 
 require('dotenv').config();
 
-const productoRoutes = require('./src/routes/productoRoutes');
-const ventaRoutes = require('./src/routes/ventaRoutes');
-const movimientoRoutes = require('./src/routes/movimientoRoutes');
+const productoRoutes = require('./routes/productoRoutes');
+const ventaRoutes = require('./routes/ventaRoutes');
+const movimientoRoutes = require('./routes/movimientoRoutes');
 
 // Inicializar Express
 const app = express();
